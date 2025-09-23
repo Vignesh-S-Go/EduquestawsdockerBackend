@@ -71,7 +71,8 @@ public class SecurityConfig {
             "http://localhost:3000",      // React default
             "http://localhost:5173",      // Vite default
             "http://localhost:5174",
-            "http://localhost:8989"		  //  Vite alternative
+            "http://localhost:8989",	  //  Vite alternative
+            "http://ec2-13-201-34-207.ap-south-1.compute.amazonaws.com"
         ));
         
         // IMPORTANT: Allow the "Authorization" header
