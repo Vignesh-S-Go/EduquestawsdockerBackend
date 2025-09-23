@@ -9,8 +9,7 @@ import java.util.*;
 import java.util.stream.Collectors;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:5173")
-@CrossOrigin(origins = "http://ec2-13-201-34-207.ap-south-1.compute.amazonaws.com")
+@CrossOrigin(origins = { "http://localhost:5173", "http://ec2-13-201-34-207.ap-south-1.compute.amazonaws.com" })
 @RequestMapping("/api")
 public class Controller {
 
