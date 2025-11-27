@@ -23,7 +23,8 @@ public class CorsConfig implements WebMvcConfigurer {
                     "http://127.0.0.1:5173",    // Alternative localhost
                     "http://127.0.0.1:5174",    // Alternative localhost
                     "http://localhost:3001",
-                    "http://localhost:8090"// Alternative React port
+                    "http://localhost:8090",
+                    "http://localhost:80"// Alternative React port
                 )
                 .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS", "PATCH", "HEAD")
                 .allowedHeaders("*")
@@ -43,7 +44,8 @@ public class CorsConfig implements WebMvcConfigurer {
             "http://127.0.0.1:5173",      // Alternative localhost
             "http://127.0.0.1:5174",      // Alternative localhost
             "http://localhost:3001",
-            "http://localhost:8090"// Alternative React port
+            "http://localhost:8090",
+            "http://localhost:80"// Alternative React port
         ));
         
         // Allow all headers
